@@ -1,0 +1,148 @@
+body{
+  background-color: black;
+}
+.div1 {
+  width:790px;
+  display: inline-block;
+}
+
+.poza1 {
+height:570px;
+width:802px;
+object-fit:cover;
+padding-top: none;
+margin-left:10px;
+  
+}
+.body2 {
+ 
+  margin-left:40px;
+  display:inline-block;
+}
+
+.poza2{
+  width:400px;
+  height:480px;
+  display:block;
+  margin-left:75px;
+  transition:padding 1s;
+  
+}
+.poza2:hover{
+  padding-right:20px;
+  padding-bottom:20px;
+}
+.imagineee{
+  width:450px;
+}
+
+.content{
+  width:500px;
+  height:0;
+  position:absolute;
+  top:19;
+  Left:8;
+  background:none;
+  opacity:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+transition:0.6s;}
+.content:hover{
+  opacity:1;
+}
+.content p{
+  color:lawngreen;
+  text-decoration: underline;
+  text-decoration-color: lawngreen;
+font-size:50px;
+  font-weight:bold;
+   font-family: "Metal Mania";
+  text-align: center;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left:50px;
+}
+
+
+.body3 {
+  display: block;
+  height:120px;
+  
+
+}
+.poza3 {
+  width: 285px;
+  vertical-align: middle;
+}
+.txt2 {
+  color:lawngreen;
+font-size:60px;
+  font-weight:bold;
+   font-family: "Anton";
+  margin-top:0px;
+  
+  display:inline-block;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+}
+
+.hr{
+ background-color: lawngreen;
+height:30px;
+margin-top:0px;
+margin-bottom:0px;
+
+}
+
+.footer{
+  width:100%;
+  color:black;
+}
+.label1{
+  color:lawngreen;
+  font-size:50px;
+    font-weight:bold;
+     font-family: "Metal Mania";
+     text-decoration: underline;
+     text-decoration-color: lawngreen;
+     margin-bottom:7px;
+}
+.label2{
+  color:lawngreen;
+  font-size:25px;
+    font-weight:bold;
+     font-family: "Metal Mania";
+     text-decoration: underline;
+     text-decoration-color: lawngreen;
+     margin-top:10px;
+     margin-bottom:10px;
+}
+.chenar {
+  color:lawngreen;
+  background-color: black;
+  font-family:Metal Mania;
+}
+.label3 {
+  font-size:10px;
+  color:grey;
+  font-family: Arial;
+  margin-bottom:20px;
+}
+.label4 {
+  color:lawngreen;
+  font-size:50px;
+    font-weight:bold;
+     font-family: "Metal Mania";
+     text-decoration: underline;
+     text-decoration-color: lawngreen;
+    margin-bottom:8px;
+     margin-top:8px;
+}
+#imagine{
+  float:right;
+  
+}

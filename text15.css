@@ -1,0 +1,475 @@
+.header {
+  height: 180px;
+
+}
+
+body {
+  margin:0px;
+  background-image: url(poze/MV5BZjE3NzEwZDUtY2Q4Yi00OWU3LThjOTItYWFjOGIxYzIxY2I0XkEyXkFqcGc@._V1_.jpg);
+background-repeat: no-repeat;
+background-position: middle;
+background-attachment: fixed;
+background-size: cover;
+
+}
+main{
+  height:auto;
+}
+.pozaxyz{
+  width:310px;
+  display:inline-block;
+  transition:padding 1s;
+  vertical-align: top;
+  margin-right:55px;
+}
+.pozaxyz:hover{
+  padding-right:20px;
+  padding-bottom:20px;
+}
+.poza{
+    width: 200px;
+    vertical-align: middle;
+    
+  }
+.poza2{
+  width:870px;
+  vertical-align: middle;
+  margin-bottom: 100px;
+
+}
+.txt {
+  color:lawngreen;
+font-size:40px;
+  font-weight:bold;
+   font-family: "Anton";
+  margin-top:0px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.undiv{
+  background-color: black;
+}
+.text22{
+  font-size:60px;
+  color:lawngreen;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom:200px;
+  transition:padding 1s;
+}
+.text22:hover{
+  padding-right:20px;
+  padding-bottom:20px;
+}
+
+.hr{
+  background-color: lawngreen;
+ height:30px;
+ margin-top:0px;
+ margin-bottom:0px;
+ 
+ }
+ 
+ .footer{
+  width:100%;
+   background-color: black;
+ }
+ .label1{
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-bottom:7px;
+ }
+ .label2{
+   color:lawngreen;
+   font-size:25px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-top:10px;
+      margin-bottom:10px;
+ }
+ .cadran{
+  display:inline-block;
+  width:1200px;
+ 
+  margin-left:280px;
+ }
+ .cadran1{
+  display:inline-block;
+  
+ }
+ .cadran2{
+  display: inline-block;
+  vertical-align: top;
+  width:500px;
+  margin-left:20px;
+ }
+ .patrat{
+  border-width: 10px;
+  border-style: solid;
+  border-color:green;
+  border-width: 2px;
+  margin-top:10px;
+  width:250px;
+  display: block;
+ }
+ .descr{
+width:200px;
+ }
+ 
+ .text40{
+ 
+  font-size: 22px;
+  color:lawngreen;
+  text-decoration: underline;
+  text-decoration-color:green;
+  margin-top:20px;
+ }
+ .img{
+object-fit:contain;
+width:400px;
+border-style: solid;
+border-color:red;
+border-width:5px;
+ }
+
+ .butoane{
+  width:352px;
+  color:red;
+  background-color:grey;
+  border-color:green;
+  height:100px;
+  font-size:70px;
+  text-decoration: underline;
+  transition:padding 0.6s;
+ }
+ .butoane:hover{
+  padding-right:15px;
+  padding-bottom:15px;
+ 
+ }
+ .txttt{
+  color:lawngreen;
+  font-size:250px;
+    font-weight:bold;
+     font-family: "Anton";
+    margin-top:0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    margin-left: 0px;
+ }
+ .table{
+  background-color: black;
+  color:lawngreen;
+  text-align: left;
+  font-size:40px;
+  border-color:lawngreen;
+  border-style: solid;
+  border-width:5px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:100px;
+
+
+  
+}
+.th1{
+  transition:background-color 1s,color 1s;
+  border-style: solid;
+  border-width: 2px;
+}
+.th1:hover{
+  background-color:lawngreen;
+  color:black;
+}
+.th{
+  font-size: 35px;
+  transition:background-color 1s,color 1s;
+  border-style: solid;
+  border-top-color: black;
+  border-left-color: black;
+  border-bottom-color:black;
+  border-width:2px;
+}
+.th:hover{
+  background-color:lawngreen;
+  color:black;
+}
+.th2{
+  font-size: 35px;
+  transition:background-color 1s,color 1s;
+  border-style: solid;
+  border-top-color: black;
+  border-left-color: black;
+  border-bottom-color:black;
+  border-right-color:black;
+  border-width:2px;
+}
+.th2:hover{
+  background-color:lawngreen;
+  color:black;
+}
+ 
+.text20{
+  color:red;
+  font-size:70px;
+  vertical-align: top;
+  text-decoration: underline;
+  transition:padding 0.6s;
+}
+.text20:hover{
+  padding-right:15px;
+  padding-bottom:15px;
+
+}
+.text201{
+  color:red;
+  font-size:50px;
+  margin-top:10px;
+  text-decoration: underline;
+  transition:padding 0.6s;
+}
+.text201:hover{
+padding-right:15px;
+padding-bottom:15px;
+}
+ .label3 {
+   font-size:10px;
+   color:grey;
+   font-family: Arial;
+   margin-bottom:20px;
+ }
+ .label4 {
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+     margin-bottom:8px;
+      margin-top:8px;
+ }
+ #imagine{
+   float:right;
+   
+ }
+ .text{
+  font-size:60px;
+  color:lawngreen;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: px;
+ }
+ .text2{
+  font-size:60px;
+ }
+ .labelx{
+
+    color:lawngreen;
+    font-size:50px;
+      font-weight:bold;
+       font-family: "Metal Mania";
+       text-decoration: underline;
+       text-decoration-color: lawngreen;
+       margin-bottom: 7px;
+       margin-top: 0px;;
+  }
+ 
+  .poze{
+width: 52%;
+height:483px;
+display:flexbox;
+margin-left:5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo {
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    
+  }
+  .photo1{
+    height:400px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    
+  }
+  .photo2{
+  border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    height:400px;
+  }
+ .swiper {
+  width:80%;
+  height:fit-content;
+ }
+
+ .swiper-slide img{
+  width:100%;
+ }
+ .swiper .swiper-button-prev,.swiper .swiper-button-next{
+  color:limegreen; 
+ }
+ .swiper .swiper-pagination-bullet-active{
+  background-color: limegreen;
+ }
+ .txtt{
+ color:lawngreen;
+font-size:40px;
+  font-weight:bold;
+   font-family: "Anton";
+  margin-top:0px;
+  margin-bottom: 0px;
+  display:flexbox;
+  margin-left: 0px;
+ }
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Metal Mania";
+
+}
+nav{
+  width:100%;
+  height:75px;
+  background: transparent;
+  color:lawngreen;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0px 50px;
+  position:fixed;
+  top:0;
+  z-index: 1;
+}
+.logo{
+  font-size:32px;
+  font-weight:bold;
+}
+.menu{
+  width:65%;
+  display:flex;
+  justify-content:right;
+  list-style: none;
+}
+.menu li{
+  margin-left:20px;
+
+}
+.menu li a{
+  font-size: 19px;
+  color:lawngreen;
+  text-decoration: none;
+  transition:0.3s ease;
+}
+.menu li a:hover{
+  color:red;
+}
+.search{
+  display:flex;
+  align-items:center;
+  margin-right:0;
+}
+.search form{
+  display:flex;
+  margin:0;
+}
+.search input{
+  padding:10px;
+  border:1px solid lawngreen;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size:16px;
+}
+.logo{
+  width:500px;
+}
+.search input:hover{
+  border:1px solid red;
+}
+.search button{
+  padding:10px;
+  background-color: lawngreen;
+  border:none;
+  border-radius:5px;
+  color:#333;
+  font-size:19px;
+  cursor:pointer;
+}
+.chenar {
+  color: lawngreen;
+  background-color: black;
+}
+.search button:hover{
+  background-color:red;
+}
+.txt2{
+
+  color:lawngreen;
+  font-size:50px;
+  text-decoration: underline;
+    font-weight:bold;
+     font-family: "Metal Mania";
+    margin-top:0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 235px;
+}
+.snow,.snow::after,.snow:before{
+  content:"";
+  position: absolute;
+  top:-650px;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image:radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+  radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+background-size: 650px 650px;
+animation:snowAnim 9s linear;
+animation-iteration-count: infinite;
+}
+.snow:after{
+ 
+  margin-left:-250px;
+  opacity:0.5;
+  filter:blur(2px);
+}
+.snow:before{
+  
+  margin-left:-250px;
+  opacity:0.7;
+  filter:blur(2px);
+
+}
+@keyframes snowAnim{
+  from{
+    transform:translateY(0);
+  }
+ to {
+  transform:translateY(650px);
+ }
+}

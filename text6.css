@@ -1,0 +1,315 @@
+.header {
+  height: 180px;
+
+}
+
+body {
+  margin:0px;
+  background-image: url(poze/Captain-America-1.jpg);
+background-repeat: no-repeat;
+background-position: middle;
+background-attachment: fixed;
+background-size: cover;
+
+}
+main{
+  height:590px;
+}
+.poza{
+    width: 200px;
+    vertical-align: middle;
+  }
+
+.txt {
+  color:lawngreen;
+font-size:40px;
+  font-weight:bold;
+   font-family: "Anton";
+  margin-top:0px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.hr{
+  background-color: lawngreen;
+ height:30px;
+ margin-top:0px;
+ margin-bottom:0px;
+ 
+ }
+ 
+ .footer{
+  width:100%;
+   background-color: black;
+ }
+ .label1{
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-bottom:7px;
+ }
+ .label2{
+   color:lawngreen;
+   font-size:25px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-top:10px;
+      margin-bottom:10px;
+ }
+ .chenar {
+   color:lawngreen;
+   background-color: black;
+ }
+ .label3 {
+   font-size:10px;
+   color:grey;
+   font-family: Arial;
+   margin-bottom:20px;
+ }
+ .label4 {
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+     margin-bottom:8px;
+      margin-top:8px;
+ }
+ #imagine{
+   float:right;
+   
+ }
+ .labelx{
+
+    color:lawngreen;
+    font-size:50px;
+      font-weight:bold;
+       font-family: "Metal Mania";
+       text-decoration: underline;
+       text-decoration-color: lawngreen;
+       margin-bottom: 7px;
+       margin-top: 0px;;
+  }
+ 
+  .poze{
+width: 52%;
+height:483px;
+display:flexbox;
+margin-left:5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo {
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    
+  }
+  .photo1{
+    height:400px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    
+  }
+  .photo2{
+  border-style: solid;
+    border-color: lawngreen;
+    border-radius:10px;
+    border-width:8px;
+    height:400px;
+  }
+  .photo3{ height:410px;
+  border-style: solid;
+  border-color: lawngreen;
+  border-radius:10px;
+  border-width:8px;
+  }
+ .swiper {
+  width:80%;
+  height:fit-content;
+ }
+
+ .swiper-slide img{
+  width:100%;
+ }
+ .swiper .swiper-button-prev,.swiper .swiper-button-next{
+  color:limegreen; 
+ }
+ .swiper .swiper-pagination-bullet-active{
+  background-color: limegreen;
+ }
+ .txtt{
+ color:lawngreen;
+font-size:40px;
+  font-weight:bold;
+   font-family: "Anton";
+  margin-top:0px;
+  margin-bottom: 0px;
+  display:flexbox;
+  margin-left: 0px;
+ }
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Metal Mania";
+
+}
+nav{
+  width:100%;
+  height:75px;
+  background: transparent;
+  color:lawngreen;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0px 50px;
+  position:fixed;
+  top:0;
+  z-index: 1;
+}
+.logo{
+  font-size:32px;
+  font-weight:bold;
+}
+.menu{
+  width:65%;
+  display:flex;
+  justify-content:right;
+  list-style: none;
+}
+.menu li{
+  margin-left:20px;
+
+}
+.menu li a{
+  font-size: 19px;
+  color:lawngreen;
+  text-decoration: none;
+  transition:0.3s ease;
+}
+.menu li a:hover{
+  color:red;
+}
+.search{
+  display:flex;
+  align-items:center;
+  margin-right:0;
+}
+.search form{
+  display:flex;
+  margin:0;
+}
+.search input{
+  padding:10px;
+  border:1px solid lawngreen;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size:16px;
+}
+.logo{
+  width:500px;
+}
+.search input:hover{
+  border:1px solid red;
+}
+.search button{
+  padding:10px;
+  background-color: lawngreen;
+  border:none;
+  border-radius:5px;
+  color:#333;
+  font-size:19px;
+  cursor:pointer;
+}
+.search button:hover{
+  background-color:red;
+}
+.txt2{
+
+  color:lawngreen;
+  font-size:50px;
+  text-decoration: underline;
+    font-weight:bold;
+     font-family: "Metal Mania";
+    margin-top:0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 235px;
+}
+.txt1{
+color:lawngreen;
+font-size:50px;
+text-decoration: underline;
+  font-weight:bold;
+   font-family: "Metal Mania";
+  margin-top:0px;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-left: 135px;
+}
+.txto{
+  color:red;
+  font-size:50px;
+  text-decoration: underline;
+    font-weight:bold;
+     font-family: "Metal Mania";
+    margin-top:0px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 235px;
+}
+.snow,.snow::after,.snow:before{
+  content:"";
+  position: absolute;
+  top:-650px;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image:radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+  radial-gradient(6px 6px at 200px 150px, #fff, transparent),
+radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+radial-gradient(6px 6px at 500px 100px, #fff, transparent),
+radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+radial-gradient(6px 6px at 250px 400px, #fff, transparent),
+radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+background-size: 650px 650px;
+animation:snowAnim 9s linear;
+animation-iteration-count: infinite;
+}
+.snow:after{
+ 
+  margin-left:-250px;
+  opacity:0.5;
+  filter:blur(2px);
+}
+.snow:before{
+  
+  margin-left:-250px;
+  opacity:0.7;
+  filter:blur(2px);
+
+}
+@keyframes snowAnim{
+  from{
+    transform:translateY(0);
+  }
+ to {
+  transform:translateY(650px);
+ }
+}

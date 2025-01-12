@@ -1,0 +1,442 @@
+body{
+  display:block;
+  background-color: black;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  
+  }
+
+.poza{
+  width: 200px;
+  vertical-align: middle;
+}
+
+.txt {
+color:lawngreen;
+font-size:40px;
+font-weight:bold;
+ font-family: "Anton";
+margin-top:0px;
+display: inline-block;
+vertical-align: middle;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Metal Mania";
+
+}
+nav{
+  width:100%;
+  height:75px;
+  background: transparent;
+  color:lawngreen;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:0px 50px;
+  position:fixed;
+  top:0;
+  z-index: 1;
+  border-color: lawngreen;
+  border-width:5px;
+  border-style:groove;
+}
+.logo{
+  font-size:32px;
+  font-weight:bold;
+}
+.menu{
+  width:65%;
+  display:flex;
+  justify-content:right;
+  list-style: none;
+}
+.menu li{
+  margin-left:20px;
+
+}
+.menu li a{
+  font-size: 19px;
+  color:lawngreen;
+  text-decoration: none;
+  transition:0.3s ease;
+}
+.menu li a:hover{
+  color:red;
+}
+.search{
+  display:flex;
+  align-items:center;
+  margin-right:0;
+}
+.search form{
+  display:flex;
+  margin:0;
+}
+.search input{
+  padding:10px;
+  border:1px solid lawngreen;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size:16px;
+}
+.logo{
+  width:500px;
+}
+.search input:hover{
+  border:1px solid red;
+}
+.search button{
+  padding:10px;
+  background-color: lawngreen;
+  border:none;
+  border-radius:5px;
+  color:#333;
+  font-size:19px;
+  cursor:pointer;
+}
+.search button:hover{
+  background-color:red;
+}
+#Marvel{
+
+
+display:block;
+background-color:white;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+}
+main{
+  height:auto;
+  
+}
+
+.marvel-poza{
+  width:40%;
+  margin-top:100px;
+  padding:0px;
+  height:50%;
+  object-fit: cover;
+}
+.Marvel-logo{
+display:flex;
+justify-content: center;
+
+}
+.image{
+
+display:inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.poze{
+  width:300px;
+  object-fit: cover;
+}
+.poze1{
+  width:300px;
+  height:400px;
+  object-fit: cover;
+  height:650px;
+}
+.poze2{
+  width:400px;
+  height:500px;
+  object-fit: cover;
+  height:620px;
+}
+.poze3{
+  width:450px;
+  height:800px;
+  display: inline-block;
+  
+
+}
+.nume{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:yellow;
+  font-family: Arial;
+  text-align: center;
+  color:yellow;
+  opacity:0;
+  transition:opacity 1s;
+}
+.nume:hover{
+opacity:1;
+}
+.nume1{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:blue;
+  font-family: Arial;
+  text-align: center;
+  color:blue;
+  opacity:0;
+  transition:opacity 1s;
+}
+.nume1:hover{
+opacity:1;
+}
+.nume2{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:yellow;
+  font-family: Arial;
+  text-align: center;
+  color:yellow;
+  opacity:0;
+  transition:opacity 1s;
+}
+.nume2:hover{
+opacity:1;
+}
+.nume3{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:black;
+  font-family: Arial;
+  text-align: center;
+  color:black;
+  opacity:0;
+  transition:opacity 1s;
+}
+.nume3:hover{
+opacity:1;
+}
+.poze8{
+  width: 230px;
+  object-fit: cover;
+  height: 570px;
+}
+.poze9{
+ 
+    object-fit: cover;
+    height: 570px;
+    width:310px;
+}
+#DC-STUDIOS{
+display:block;
+background-image: url(poze/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.avif);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+}
+
+.logoDC{
+  display: flex;
+  justify-content: center;
+}
+.dclogo{
+width:20%;
+}
+.image1{
+  display:flex;
+ justify-content: center;
+ 
+}
+.spng{
+ width:80%;
+ 
+}
+.poze5{
+  width:300px;
+  margin-left:70px;
+  object-fit: cover;
+  height:680px;
+}
+.poze6{
+  width: 300px;
+  object-fit: cover;
+  height: 570px;
+}
+.poze7{
+  
+  width: 250px;
+    object-fit: cover;
+}
+
+.nume6{
+  
+    font-size:30px;
+    text-decoration: underline;
+    text-decoration-color:red;
+    font-family: Arial;
+    text-align: center;
+    color:red;
+    opacity:0;
+    transition:opacity 1s;
+}
+  .nume6:hover{
+  opacity:1;
+  }
+.nume7{
+
+    font-size:30px;
+    text-decoration: underline;
+    text-decoration-color:grey;
+    font-family: Arial;
+    text-align: center;
+    color:grey;
+    opacity:0;
+    transition:opacity 1s;
+  }
+  .nume7:hover{
+  opacity:1;
+  }
+
+.numetxt{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:red;
+  font-family: Arial;
+  text-align: center;
+  color:rgb(186, 8, 8);
+  opacity:0;
+  transition:opacity 1s;
+}
+.numetxt:hover{
+opacity:1;
+}
+
+.hr{
+  background-color: lawngreen;
+ height:30px;
+ margin-top:0px;
+ margin-bottom:0px;
+ 
+ }
+ .nume4{
+  font-size:30px;
+  text-decoration: underline;
+  text-decoration-color:green;
+  font-family: Arial;
+  text-align: center;
+  color:green;
+  opacity:0;
+  transition:opacity 1s;
+}
+.nume4:hover{
+opacity:1;
+}
+.G-M{
+  display:block;
+background-image: url(poze/f96dfb9f9d4e0b42af3888de8b9473a7.gif);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+}
+.Movies-Games{
+  text-align: center;
+  font-family:Metal+Mania;
+  font-size:70px;
+  font-weight: bold;
+  color:limegreen;
+}
+.poze10{
+  width:300px;
+  object-fit: cover;
+}
+.poze11{
+  width:515px;
+  height:600px;
+  object-fit: cover;
+}
+.poze12{
+  width:370px;
+  object-fit: cover;
+}
+.poze13{
+  width:310px;
+ 
+  object-fit:cover;
+}
+ .footer{
+   
+ width:100%;
+   background-color: black;
+ }
+ .label1{
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-bottom:7px;
+ }
+ .label2{
+   color:lawngreen;
+   font-size:25px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+      margin-top:10px;
+      margin-bottom:10px;
+ }
+ .chenar {
+   color:lawngreen;
+   background-color: black;
+ }
+ .label3 {
+   font-size:10px;
+   color:grey;
+   font-family: Arial;
+   
+ }
+ .label4 {
+   color:lawngreen;
+   font-size:50px;
+     font-weight:bold;
+      font-family: "Metal Mania";
+      text-decoration: underline;
+      text-decoration-color: lawngreen;
+     margin-bottom:8px;
+      margin-top:8px;
+ }
+ #imagine{
+   float:right;
+   display:flex;
+ 
+   
+ }
+ .labelx{
+
+    color:lawngreen;
+    font-size:50px;
+      font-weight:bold;
+       font-family: "Metal Mania";
+       text-decoration: underline;
+       text-decoration-color: lawngreen;
+       margin-bottom: 7px;
+       margin-top: 0px;;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
