@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SpawnToys</title>
+    <link rel="stylesheet" href="resurse/text5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9927104ded.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="icon" type="image/jpg" href="resurse/poze/Spawn-logo-2025.jpg"></head>
+ <body>
+  <div class="snow">
+  </div> 
+  
+  <header class="header">
+    <nav>
+     
+      <div class="logo">
+        <img class="poza" src="resurse/poze/logo.png">
+      <p class="txt">TOYS</p>
+      </div>
+      <ul class="menu">
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="index3.html">Products</a></li>
+        <li><a href="index15.html">About</a></li>
+        <li><a href="index16.html">Service</a></li>
+      </ul>
+      <div class="search">
+        <form>
+         <input type="text" placeholder="Search">
+         <button type="submit">Go</button>
+        </form>
+      </div>
+     </nav>
+    </header>
+
+    <main>
+      <div class="poze">
+        <div class="swiper">
+          <p class="txt2">IRON-MAN</p>
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><a href="index5,1.html"><img class="photo1" src="resurse/poze/ironman-hottoys.jpg"    alt="ironman-hottoys"></a><p class="txt2">price:370 $</p></div>
+            <div class="swiper-slide"><a href="index5,2.html"><img class="photo2" src="resurse/poze/iron-man_marvel_gallery_5c4d7f301b2b5.avif" alt="ironman statue"></a><p class="txt2">price:722 $</p></div>
+            <div class="swiper-slide"><a href="index5,3.html"><img  class="photo3" src="resurse/poze/iron_studios_iron_man_mark_lxxxv_deluxe_legacy_replica_1_4_avengers_endgame_homem_de_ferro_1923_1_a934868124f5d33a4b9b61ad322d10cd.webp" alt="ironman-statue"></a><p class="txt2">price:216 $</p></div>
+           
+          </div>
+            <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+          const swiper = new Swiper('.swiper', {
+            autoplay: {
+              delay:5000,disableOnInteraction:false,
+            },
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:true
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+     
+    });
+    
+        </script>    
+      </div>
+    </main>
+    <hr class="hr">
+    <footer class="footer">
+      <p class="label1">
+        About us
+      </p>
+      <p class="label2">
+        Our products are a unique offering of limited edition statues and busts, articulated figures, film prop replicas and fine art pieces in a wide range of scales.Our development team consists of expert artists, sculptors, model makers, painters and costumers whose combined efforts result in the creation of outstanding original designs and intricately detailed likenesses of popular characters from highly recognized brands such as Star Wars, Marvel, DC Comics, Alien & Predator, Terminator, The Lord of the Rings, G.I. Joe and many more.
+      </p>
+      <br>
+      <form action="index.php" method="POST" enctype="multipart/form-data">
+<p class="label1">Create account</p>
+        <label for="username" class="label2">username:</label>
+        <input type="text"id="username" placeholder="spawn" class="chenar" >
+        <br>
+        <label for="password" class="label2" >password:</label>
+        <input type="password"id="password" minlength="8" placeholder="ex:spawnToys" minlength="8" class="chenar" >
+        <br>
+        <label for="email" class="label2">email:</label>
+        <input type="email" id="email" placeholder="ex:SpawnToys@email.com" class="chenar">
+        <br>
+        <br>
+        <input type="submit" class="chenar">
+        <input type="reset" class="chenar">
+        <img src="resurse/poze/spawn-gif.gif" height="550px" id="imagine">
+        <p class="label1">
+          Ask a question
+        </p>
+       
+        <label for="email" class="label2">email:</label>
+        <input type="email" id="email" placeholder="ex:SpawnToys@email.com "class="chenar">
+        <br>
+        <label for="comment" class="label2">Ask a question</label>
+<textarea id="comment" row="5" cols="40" class="chenar"></textarea><br>
+<br>
+        <input type="submit" class="chenar">
+
+<p class="label1">Contact us</p>
+        <label for="phone" class="label2">phone:</label>
+        <p class="label2">0734 567 890</p>
+        <p class="label2">or</p>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x" style="color: limegreen;"></i></a> 
+        <a href="https://x.com/?lang=ro"><i class="fa-brands fa-x-twitter fa-2x" style="color: limegreen;"></i></a>
+        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp  fa-2x" style="color: limegreen;"></i></a>
+        <a href="https://www.facebook.com/?locale=ro_RO"><i class="fa-brands fa-facebook fa-2x" style="color: limegreen;"></i></a>
+       <br>
+       <p class="label1">Adress</p>
+       <p class="label2">Street Palas Mall,Number 8C</p>
+       <br>
+       <br>
+       <p class="label4">PRIVACY</p>
+       <p class="label3">Series content, product specifications, release dates and pricing are subject to change. SpawnToys is the registered trademark and copyright of SpawnToys Inc. All Rights Reserved.
+        &#169; SpawnToys </p>
+      </form>
+     
+    </footer>
+ 
+  </body>
+</html>
+   

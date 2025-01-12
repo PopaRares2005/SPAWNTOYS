@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SpawnToys</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Popa Rares Petru">
+    <link rel="stylesheet" href="resurse/text2.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <script src="https://kit.fontawesome.com/9927104ded.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resurse/text2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="icon" type="image/jpg" href="resurse/poze/Spawn-logo-2025.jpg">
+<script src="https://kit.fontawesome.com/9927104ded.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    
+      
+      
+    <header class="header">
+       <div class="meniu">
+        <div class="logo">
+        <img class="poza" src="resurse/poze/logo.png">
+        <p class="txt">TOYS</p>
+      </div>
+        <div class="dreapta">
+        
+     <a href="index3.html" class="head">Products</a>
+     <a href="index15.html" class="head">About</a>
+    <a href="index16.html" class="head">Service</a>
+    <button class="toggle"><i class="fa-solid fa-bars fa-2x" ></i></button>
+       </div>
+       <div class="sub-menu">
+     <a href="index3.html" class="sub">Products</a>
+     <a href="index15.html" class="sub">About</a>
+    <a href="index16.html" class="sub">Service</a>
+        <a href="index3.html" class="option">Products</a>
+        <a href="index15.html" class="option">About</a>
+       <a href="index16.html" class="option">Service</a>
+       </div>
+       <script>
+        let subMenu=document.querySelector(".sub-menu");
+
+        window.addEventListener("click",(e) => {
+          if(e.target.closest(".toggle")){
+            subMenu.style.display = "flex"
+          }
+          else{
+            subMenu.style.display = "none";
+          }
+        });
+       </script>
+       </div>
+    </header>
+
+    <main>
+     
+          <div class="poze">
+     <div class="swiper">
+      <p class="txt2"> THE NEWEST PRODUCTS!</p>
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href="index4,1.html"><img class="photo1" src="resurse/poze/hulk-statue.avif"    alt="hulk-statue"><p class="txts">price:800$</p></a></div>
+        <div class="swiper-slide"><a href="index9,1.html"><img class="photo" src="resurse/poze/batman-hottoys.webp" alt="batman-hottoys"><p class="txts">price:245$</p></a></div>
+        <div class="swiper-slide"><a href="index5,1.html"><img  class="photo" src="resurse/poze/ironman-hottoys.jpg" alt="ironman-hottoys"><p class="txts">price:370$</p></a></div>
+        <div class="swiper-slide"><a href="index14,1.html"><img  class="photo" src="resurse/poze/berserk-statue.jpeg" alt="berserk-statue"><p class="txts">price:1007$</p></a></div>
+      </div>
+        <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+          delay:5000,disableOnInteraction:false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+
+    </script>
+    
+          
+    </main>
+
+
+
+    <hr class="hr">
+    <footer class="footer">
+      <p class="label1">
+        About us
+      </p>
+      <p class="label2">
+        Our products are a unique offering of limited edition statues and busts, articulated figures, film prop replicas and fine art pieces in a wide range of scales.Our development team consists of expert artists, sculptors, model makers, painters and costumers whose combined efforts result in the creation of outstanding original designs and intricately detailed likenesses of popular characters from highly recognized brands such as Star Wars, Marvel, DC Comics, Alien & Predator, Terminator, The Lord of the Rings, G.I. Joe and many more.
+      </p>
+      <br>
+     <p class="label1">
+      Send us an email
+     </p>
+     <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="16cebae7-f33a-48af-9ae2-0607a90976e9">
+        <label for="username" class="label2">username:</label>
+        <input type="username" name="name" class="chenar" required placeholder="Name"><br>
+        <label for="email" class="label2">email:</label>
+        
+        <img src="resurse/poze/spawn-gif.gif" height="550px" id="imagine">
+        <input type="email" name="email" required placeholder="Email" class="chenar"><br>
+        <label for="subject" class="label2">Subject</label>
+         <input type="text" name="subject" required placeholder="Subject" class="chenar"><br>
+         <label for="comment" class="label2">Ask a question</label><br>
+        <textarea name="message" required placeholder="Message" row="100" cols="25" class="chenar"></textarea><br>
+        <button type="submit" class="chenar">Submit</button>
+        <br>
+        
+<p class="label1">Contact us</p>
+        <label for="phone" class="label2">phone:</label>
+        <a href="tel:+0734567890"class="label2">0734 567 890</a>
+        <p class="label2">or</p>
+       <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x" style="color: limegreen;"></i></a> 
+       <a href="https://x.com/?lang=ro"><i class="fa-brands fa-x-twitter fa-2x" style="color: limegreen;"></i></a>
+       <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp  fa-2x" style="color: limegreen;"></i></a>
+       <a href="https://www.facebook.com/?locale=ro_RO"><i class="fa-brands fa-facebook fa-2x" style="color: limegreen;"></i></a>
+       <br>
+       <p class="label1">Adress</p>
+       <p class="label2">Street Palas Mall,Number 8C</p>
+       <br>
+       <br>
+       <p class="label4">PRIVACY</p>
+       <p class="label3">Series content, product specifications, release dates and pricing are subject to change. SpawnToys is the registered trademark and copyright of SpawnToys Inc. All Rights Reserved.
+        &#169; SpawnToys </p>
+      </form>
+     
+    </footer>
+  </body>
+</html>
